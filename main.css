@@ -13,32 +13,35 @@
     height: 34px;
 
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;  
+  }
   
 a {
     display: flex;
     text-decoration: none;
 }
-.top {
+a.top {
     color: #000;
     opacity: 0.75;
   }
-
-  .top-right {
-    color: #000;
-    opacity: 0.75;
-    text-align: right;
-  }
-  
 a:hover {
     text-decoration: underline;
   }
 
 ul {
     display: flex;
+    align-items: center;
+    list-style-type: none;
     padding: 0;
+    margin-right: 12px;
   }
   
 li {
     display: flex;
+    align-items: center;
     padding-left: 15px;
   }
