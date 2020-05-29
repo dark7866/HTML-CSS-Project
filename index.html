@@ -13,12 +13,24 @@
         <ul>
             <li><a class="top" href="#gmail">Gmail</a></li>
             <li><a class="top" href="#images">Images</a></li>
+            <li><a class="top" id="sign-in" href="#">Sign in</a></li>
         </ul>
 
     </nav>
-
-    <img class="main-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-    <input type="text" id="name">
+    <div id="logo-and-search-container">
+        <img class="main-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        <div id="search-and-buttons-container">
+            <div id="search-bar-container">
+              <form id="search-input-form" action="/search-results">    
+                <input id="search-text-input" type="text">
+                
+              </form>
+            </div>
+        <div id="buttons-container">
+            <input class="search-buttons" type="submit" value="Google Search">
+            <button class="search-buttons" type="button">I'm Feeling Lucky</button>
+        </div>
+    </div>
 
     <nav class="bottom">
         <ul class="bottom-left">
